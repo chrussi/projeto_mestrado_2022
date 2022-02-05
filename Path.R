@@ -45,7 +45,7 @@ con.m=do.call(cbind,lapply(1:nrow(df2), function(x){
 
 con.m=as.dist(con.m)
 
-#clima medio
+#ambiente medio
 #temperatura
 tas.m=do.call(cbind,lapply(1:nrow(df2), function(x){
   unlist(lapply(1:nrow(df2), function(y){
